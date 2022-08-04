@@ -1,4 +1,5 @@
-et runtimepath+=~/.vim_runtime
+```bash
+set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
@@ -164,8 +165,4 @@ set nomodeline                  " don't use modeline (security)
 
 set pastetoggle=<leader>p       " paste mode: avoid auto indent, treat chars
                                 " as literal.
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
+```
